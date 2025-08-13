@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, TreePine } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSelector from './LanguageSelector';
 
@@ -25,11 +25,11 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <TreePine className="h-8 w-8 text-resort-forest" />
-            <div>
-              <div className="font-bold text-xl text-resort-forest">Woodland Resort</div>
-              <div className="text-xs text-resort-gray">Kragujevac</div>
-            </div>
+            <img 
+              src="/assets/logo-sticky.png" 
+              alt="Woodland Resort" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
