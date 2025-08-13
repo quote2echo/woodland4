@@ -23,8 +23,7 @@ export default function LanguageSelector() {
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center space-x-2 px-3 py-2 rounded-lg hover:bg-resort-cream/20 transition-colors duration-200 text-resort-gray hover:text-resort-forest"
       >
-        <Globe className="h-4 w-4" />
-        <span className="text-sm font-medium">{currentLanguage?.flag} {currentLanguage?.name}</span>
+        <span className="text-lg">{currentLanguage?.flag}</span>
         <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />
       </button>
 
