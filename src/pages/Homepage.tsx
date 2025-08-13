@@ -36,10 +36,18 @@ function HeroSection() {
         <div className="max-w-6xl mx-auto">
           {/* Crown decoration */}
           <div className="mb-8">
-            <Crown className="h-20 w-20 text-resort-gold mx-auto mb-4 drop-shadow-lg" />
+            <img 
+              src="/assets/logo-gold.png" 
+              alt="Woodland Resort Logo" 
+              className="h-20 w-auto mx-auto mb-4 drop-shadow-lg"
+            />
             <div className="flex items-center justify-center space-x-4">
               <div className="w-16 h-px bg-gradient-to-r from-transparent to-resort-gold"></div>
-              <Sparkles className="h-6 w-6 text-resort-gold" />
+              <img 
+                src="/assets/logo-gold.png" 
+                alt="Woodland Resort" 
+                className="h-6 w-auto opacity-80"
+              />
               <div className="w-16 h-px bg-gradient-to-l from-transparent to-resort-gold"></div>
             </div>
           </div>
